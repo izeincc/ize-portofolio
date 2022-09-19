@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+h1 {
+  color: yellow;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+/*font-family: Serif, Verdana, Geneva, Arial, Helvetica, sans-serif; */
+
+  font-family: 'Oxygen', sans-serif;
+
+  background-color: #c1946a;
+}
+
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  text-align: right;
+  text-shadow: 5px 5px 7px #000000;
+}
+
+nav ul li {
+  text-align: left;
+}
+
+ul {
+  background: #c1946a;
+  padding: 10px;
+}
+
+ul li {
+  background: #7e4a35;
+  padding: 5px;
+  border: solid 5px #4f3222;
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #d9ad7c;
+}
+
+article h2 {
+  padding: 10px;
+
+}
+
+body {
+  text-align: center;
+  font-size: 100%;
+}
+
+.wrapper {
+  margin: 0 auto 0 auto;
+  width: 960px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: #fbefcc;
+  font-size: 26px;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+article:hover {
+  color: #454140;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px black;
+}
+
+section article {
+  border: 3px solid #4f3222;
+  border-radius: 0px 20px 20px;
+  margin: 5px 10px 5px;
+  padding: 10px;
+  background: #b9936c;
+}
